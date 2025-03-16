@@ -1,0 +1,61 @@
+body {
+    font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: pink;
+}
+
+.toggle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.toggle {
+    border-radius: 25px;
+    border: 2px solid pink;
+    width: 70px;
+    height: 30px;
+    padding: 5px;
+}
+
+.toggle div {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: pink;
+    transition: all 0.3s;
+}
+
+.toggle.serious div {
+    margin-left: 40px;
+    transition: all 0.3s;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 10px;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    width: 20%;
+    height: 500px;
+    border-radius: 20px;
+    background-color: #e9e9e9;
+    padding: 3%;
+    color: lightblue;
+}
+
+.selected {
+    background-color: pink;
+    transform: scale(1.1);
+    transition: all linear 0.5;
+    color: darkslateblue;
+}
